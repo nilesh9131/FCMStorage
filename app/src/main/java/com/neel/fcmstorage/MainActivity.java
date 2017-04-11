@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity  implements  View.OnClickLis
         startActivityForResult(Intent.createChooser(intent, "Select Picture"), PICK_IMAGE_REQUEST);
     }
 
-    //handling the image chooser activity result
+    //handling the image chooser activity result should logout
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
