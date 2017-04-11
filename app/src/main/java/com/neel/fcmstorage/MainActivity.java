@@ -87,6 +87,7 @@ public class MainActivity extends AppCompatActivity  implements  View.OnClickLis
             } catch (IOException e) {
                 e.printStackTrace();
             }
+            System.out.println(":annote");
         }
     }
 
